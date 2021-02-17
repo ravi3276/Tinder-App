@@ -1,0 +1,52 @@
+.messageScreen > p{
+    text-align: center;
+    padding:20px;
+    color:grey;
+    opacity: 0.8;
+}
+
+.message__chat{
+    display:flex;
+    align-items:center;
+    padding: 20px;
+    
+}
+
+.messageScreen__text {
+    background-color:lightgrey;
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.messageScreen__textUser{
+    margin-left: auto;
+    background-color: #29b3cd;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+.send__msg{
+    display: flex;
+    padding:5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+}
+
+.send__input{
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+
+.send__btn{
+    border: none;
+    margin-right: 20px;
+    background-color: white;
+    font-weight: bold;
+    color: #fe3471;
+}
